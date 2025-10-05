@@ -1,63 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  background: #f5f5f5;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  width: 100%;
-  max-width: 400px;
-  padding: 20px;
-}
-
-.card {
-  background: white;
-  border-radius: 10px;
-  padding: 30px;
-  text-align: center;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #333;
-}
-
-p {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 30px;
-}
-
-.main-link {
-  display: inline-block;
-  background-color: #007bff;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.main-link:hover {
-  background-color: #0056b3;
-}
+ body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: auto;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 400px;
+        }
+        h1 {
+            color: #333;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 15px 25px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .download-btn:hover {
+            background-color: #000;
+        }
+        .permalink {
+            margin-top: 20px;
+            display: block;
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .permalink:hover {
+            text-decoration: underline;
+        }
